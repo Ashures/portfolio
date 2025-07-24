@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+/* Landing */
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landing-fg,
+.landing-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-fg {
+  z-index: 50;
+}
+
+.landing-filter {
+  background: linear-gradient(#0000 65%, rgba(2, 6, 31, 0.533));
+  z-index: 99;
+}
+
+.landing-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-content h1 {
+  color: white;
+  font: calc(100vw / 8) Inter, sans-serif;
+  letter-spacing: calc(100vw / 30);
+  text-shadow: 0 0 calc(1vw / 2) black;
+  user-select: none;
+}
