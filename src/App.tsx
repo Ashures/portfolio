@@ -1,4 +1,5 @@
 import Landing from "./components/main/Landing";
+import Windows from "./components/main/windows/Windows";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
         imageCredit="Landing image from https://deviantart.com/lizhel-art"
         title="ashures"
       />
+      <Windows />
     </>
   )
 };
